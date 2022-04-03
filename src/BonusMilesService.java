@@ -1,19 +1,17 @@
 
 public class BonusMilesService {
 
-
     public int calculate(int cost) {
 
-        int ticket = 10_000;
+        int price = cost;
         int rubles = 20;
 
-        int miles = (ticket / rubles);
+        int miles = (price / rubles);
 
         return miles;
 
 
     }
-
 
 }
 
